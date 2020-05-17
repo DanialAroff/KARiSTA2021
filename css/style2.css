@@ -10,9 +10,6 @@ body {
     padding: 0;
     font-family: 'Montserrat', 'sans-serif';
     font-size: 16px;   
-    background-color: #c8d6e5;
-    background-color: #dde7f1;
-    background-color: #e5ecf3;
     background-color: #D6EBFF;
     color: #3d3d3d;
     /* background-image: url('../assets/colorbg4.png'); */
@@ -88,7 +85,6 @@ h1 {
 .card-wide {
     grid-column: span 2 / auto;
 }
-
 
 .video-container {
     position: relative;

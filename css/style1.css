@@ -114,15 +114,18 @@ header {
     font-weight: 500;
     outline: none;
     border: 1px solid #3b5999;
+    border: 1px solid #272727;
     border-radius: 10px;
     background-color: transparent;
     color: #3b5999;
-    padding: .5rem 2rem;
+    color: #272727;
+    padding: .7rem 2rem;
     cursor: pointer;
     transition: all .3s;
 }
 #read-more button:hover {
     background-color: #3b5999;
+    background-color: #272727;
     color: #fff;
 }
 #about {
