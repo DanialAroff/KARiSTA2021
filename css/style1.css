@@ -3,6 +3,7 @@
 
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -39,6 +40,9 @@ header {
     padding: 1rem 2rem;
     transform: scale(1);
 }
+.logos {
+    margin-right: 2rem;
+}
 .nav-container img {
     height: 5vw;
 }
@@ -53,11 +57,11 @@ header {
     font-size: 1.2rem;
     font-weight: 600;
     color: #272727;
-    border-bottom: 4px solid transparent;
+    border-bottom: 3px solid transparent;
     transition: all .2s;
 }
 .nav-container nav div:hover {
-   border-bottom: 4px solid #272727;
+   border-bottom: 3px solid #272727;
 }
 .nav-container nav div a {
     text-decoration: none;
@@ -113,8 +117,13 @@ header {
     border-radius: 10px;
     background-color: transparent;
     color: #3b5999;
-    padding: 1rem 2rem;
+    padding: .5rem 2rem;
     cursor: pointer;
+    transition: all .3s;
+}
+#read-more button:hover {
+    background-color: #3b5999;
+    color: #fff;
 }
 #about {
     font-weight: 300;
@@ -167,7 +176,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0 1rem;
@@ -205,7 +214,4 @@ header {
     line-height: 2rem;
     font-weight: 300;
     text-align: center;
-}
-
-@media only screen and (max-width: 500px) {
 }
